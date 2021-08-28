@@ -9,12 +9,12 @@ public class Campress {
         int pauseTime = 200;
         for (int i = 1; i <= min; ++i) {
             displayCompressionNumber(i, pic, rend);
-            StdDraw.setPenColor(Color.black);
+            StdDraw.setPenColor(Color.white);
             StdDraw.text(width / 2, height - 12, i + "");
             StdDraw.show();
             if (i < min / 10) {
                 pauseTime = 200;
-            } else if (i < min / 2) {
+            } else if (i < min / 4) {
                 pauseTime = 50;
             } else {
                 pauseTime = 0;

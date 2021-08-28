@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) {
-        String path = "images/testing.jpeg";
+        String path = "images/smaller.jpeg";
         BufferedImage bf = null;
         try {
             bf = ImageIO.read(new File(path));
